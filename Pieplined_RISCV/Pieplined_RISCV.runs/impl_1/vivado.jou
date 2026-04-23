@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Apr 18 11:16:52 2026
+# Process ID: 12960
+# Current directory: C:/Users/drali/Downloads/RISCV_Processor/RISCV_Processor/RISCV_Processor.runs/impl_1
+# Command line: vivado.exe -log ProcessorFPGA.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ProcessorFPGA.tcl -notrace
+# Log file: C:/Users/drali/Downloads/RISCV_Processor/RISCV_Processor/RISCV_Processor.runs/impl_1/ProcessorFPGA.vdi
+# Journal file: C:/Users/drali/Downloads/RISCV_Processor/RISCV_Processor/RISCV_Processor.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ProcessorFPGA.tcl -notrace

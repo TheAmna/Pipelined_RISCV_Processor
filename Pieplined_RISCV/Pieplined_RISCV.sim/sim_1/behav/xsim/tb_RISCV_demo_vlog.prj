@@ -1,0 +1,37 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/ALU.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/ALUControl.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/DataMemory.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/EX_MEM_Reg.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/ForwardingUnit.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/FullAdder.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/HazardDetectionUnit.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/ID_EX_Reg.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/IF_ID_Reg.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/InstructionMemory.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/MEM_WB_Reg.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/MainControl.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/ProgramCounter.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/RegisterFile.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/branchAdder.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/clock_divider.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/immGen.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/mux2.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/pcAdder.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/TopLevelPipelined.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/TopLevelProcessor.v" \
+"../../../../Pieplined_RISCV.srcs/sources_1/new/mux3.v" \
+"../../../../Pieplined_RISCV.srcs/sim_1/new/tb_IF_ID_Reg.v" \
+"../../../../Pieplined_RISCV.srcs/sim_1/new/tb_ID_EX_Reg.v" \
+"../../../../Pieplined_RISCV.srcs/sim_1/new/tb_EX_MEM_Reg.v" \
+"../../../../Pieplined_RISCV.srcs/sim_1/new/tb_MEM_WB_Reg.v" \
+"../../../../Pieplined_RISCV.srcs/sim_1/new/tb_TopLevelPipelined.v" \
+"../../../../Pieplined_RISCV.srcs/sim_1/new/tb_TopLevelProcessor.v" \
+"../../../../Pieplined_RISCV.srcs/sim_1/new/tb_RISCV_demo.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
