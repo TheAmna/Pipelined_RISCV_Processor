@@ -32,3 +32,5 @@ The following RISC-V instructions are supported by the processor:
 ## Video Demonstration
 https://github.com/user-attachments/assets/ee5cdb1e-745f-4d3b-bf45-7a2002d49598
 
+## To run
+Type run all in the TCL console on Vivado incase the timing constraint is being reached. You can see the full bubblesort happening this way.
